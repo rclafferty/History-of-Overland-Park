@@ -1,0 +1,140 @@
+@charset "utf-8";
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: .95em;
+}
+#outerwrapper {
+	width: 1281px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#header {
+	background-color: #447893;
+	float: left;
+	width: 100%;
+}
+.logo {
+	font-size: 200%;
+	padding: 1em;
+	width: 35%;
+	border: 6px solid #f2f4f8;
+	color: #ffffff;
+	background-color: #458679;
+}
+#navBar {
+	font-size: 100%;
+	color: #ffffff;
+	float: left;
+	width: 100%;
+}
+#navBar ul {
+	text-align: center;
+	display: block;
+	list-style-type: none;
+}
+#navBar ul li {
+	display: inline;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+#navBar ul li a:link {
+	font-size: 125%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navBar ul li a:visited {
+	font-size: 125%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navBar ul li a:hover {
+	font-size: 125%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#leftColumn {
+	padding: 1em;
+	float: left;
+	width: 47%;
+}
+.illusFloatLeft {
+	padding: 10px;
+	float: left;
+}
+#rightColumn {
+	padding: 1em;
+	float: left;
+	width: 47%;
+}
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	width: 100%;
+}
+
+
+
+
+#content {
+	float: left;
+	width: 100%;
+	overflow: auto;
+}
+#leftNav {
+	float: left;
+	width: 33%;
+}
+#leftNav ul {
+	line-height: 600%;
+	list-style-type: none;
+}
+#leftNav ul li a:link {
+	font-size: 110%;
+	color: #709abb;
+	text-decoration: none;
+}
+#leftNav ul li a:visited {
+	font-size: 110%;
+	color: #709abb;
+	text-decoration: none;
+}
+#leftNav ul li a:hover {
+	font-size: 110%;
+	color: #709abb;
+	text-decoration: underline;
+}
+#rightContent {
+	float: left;
+	width: 66%;
+}
+.illusFloatRight {
+	padding: 1em;
+	float: right;
+}
+#footer a:link {
+	color: #00C;
+	text-decoration: underline;
+}
+#footer a:visited {
+	color: #00C;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #00C;
+	text-decoration: underline;
+}
+#rightContent a:link {
+	color: #00C;
+	text-decoration: underline;
+}
+#rightContent a:visited {
+	color: #00C;
+	text-decoration: underline;
+}
+#rightContent a:hover {
+	color: #00C;
+	text-decoration: underline;
+}
